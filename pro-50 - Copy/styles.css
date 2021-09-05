@@ -1,0 +1,48 @@
+.menu {
+
+  background-color: black;
+  background-image: url(images/bbg.jpg); 
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+body {
+  background-color:rgb(142, 230, 230);
+ 
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+font-family: sans-serif;
+ 
+}
+.item{
+width: 25rem;
+
+background-color: white;
+border-radius: 20px;
+padding: 2rem;
+background-image: url(images/white-7.jpg); 
+margin:1rem 1rem 1rem 1rem;
+justify-content:space-between;
+}
+.item p{
+  display: block;
+}
+.item ul{
+  display: block;
+}
+.grid img {
+  border: 2px solid black;
+ border-radius: 15%;
+}
+.origami {
+ 
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
+
